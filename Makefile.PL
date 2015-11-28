@@ -4,6 +4,8 @@ use warnings;
 
 use ExtUtils::MakeMaker;
 
+# ----------------
+
 my(%params) =
 (
 	($] ge '5.005') ?
@@ -13,7 +15,7 @@ my(%params) =
 	) : (),
 	clean =>
 	{
-		FILES => 'blib/* Makefile MANIFEST Tree-Simple-*'
+		FILES => 'blib/* Makefile Tree-Simple-*'
 	},
 	dist =>
 	{
@@ -25,12 +27,12 @@ my(%params) =
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
-		'constant'        => 0,
-		'Scalar::Util'    => '1.18',
-		'strict'          => 0,
+		'constant' => 0,
+		'Scalar::Util' => '1.18',
+		'strict' => 0,
 		'Test::Exception' => '0.15',
-		'Test::More'      => '0.47',
-		'warnings'        => 0,
+		'Test::More' => 1.001014,
+		'warnings' => 0,
 	},
 	VERSION_FROM => 'lib/Tree/Simple.pm',
 );
@@ -48,6 +50,12 @@ if ($ExtUtils::MakeMaker::VERSION ge '6.46')
 		{
 			bugtracker => 'https://rt.cpan.org/Public/Dist/Display.html?Name=Tree-Simple',
 			license    => 'http://www.perlfoundation.org/artistic_license_2_0',
+			repository =>
+			{
+				type => 'git',
+				url  => 'https://github.com/ronsavage/Tree-Simple.git',
+				web  => 'https://github.com/ronsavage/Tree-Simple',
+			},
 		},
 	};
 }

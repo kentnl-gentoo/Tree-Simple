@@ -1,10 +1,11 @@
-Build.PL
 Changelog.ini
 Changes
 lib/Tree/Simple.pm
 lib/Tree/Simple/Visitor.pm
+LICENSE
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 META.json
 META.yml
 README
@@ -19,5 +20,6 @@ t/16_Tree_Simple_width_test.t
 t/17_Tree_Simple_width_test.t
 t/20_Tree_Simple_Visitor_test.t
 t/21_Tree_Simple_Visitor_test.t
+xt/author/changes.t
 xt/author/pod.t
 xt/author/pod_coverage.t
