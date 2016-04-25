@@ -6,7 +6,7 @@
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.06, CPAN::Meta::Converter version 2.143240",
    "license" : [
-      "artistic_2"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -33,11 +33,15 @@
       "runtime" : {
          "requires" : {
             "Scalar::Util" : "1.18",
-            "Test::Exception" : "0.15",
-            "Test::More" : "1.001014",
             "constant" : "0",
             "strict" : "0",
             "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Exception" : "0.15",
+            "Test::More" : "1.001014"
          }
       }
    },
@@ -47,9 +51,9 @@
          "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Tree-Simple"
       },
       "license" : [
-         "http://www.perlfoundation.org/artistic_license_2_0"
+         "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.26"
+   "version" : "1.27"
 }
 
