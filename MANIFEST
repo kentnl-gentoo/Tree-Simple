@@ -4,10 +4,8 @@ lib/Tree/Simple.pm
 lib/Tree/Simple/Visitor.pm
 LICENSE
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
-META.json
-META.yml
 README
 t/10_Tree_Simple_test.t
 t/11_Tree_Simple_fixDepth_test.t
@@ -23,3 +21,5 @@ t/21_Tree_Simple_Visitor_test.t
 xt/author/changes.t
 xt/author/pod.t
 xt/author/pod_coverage.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
