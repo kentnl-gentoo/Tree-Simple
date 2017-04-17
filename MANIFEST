@@ -19,6 +19,7 @@ t/17_Tree_Simple_width_test.t
 t/20_Tree_Simple_Visitor_test.t
 t/21_Tree_Simple_Visitor_test.t
 t/22_Tree_Simple_generate_child.t
+t/24_Tree_Simple_sibling_test.t
 xt/author/changes.t
 xt/author/pod.t
 xt/author/pod_coverage.t
